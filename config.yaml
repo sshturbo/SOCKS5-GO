@@ -1,0 +1,15 @@
+address: "0.0.0.0:1087"        # Endereço para escutar conexões
+username: "root"               # Nome de usuário para autenticação
+password: "j96637116"          # Senha para autenticação
+blocked_ips:
+  - "192.168.1.100"
+  - "10.0.0.200"               # Lista de IPs bloqueados
+enable_tls: false               # Habilitar TLS para conexões seguras
+cert_file: "server.crt"        # Caminho para o arquivo de certificado TLS
+key_file: "server.key"         # Caminho para o arquivo de chave TLS
+rate_limit: 10                 # Limite de taxa para conexões
+max_packet_size: 4096          # Tamanho máximo do pacote em bytes
+cleanup_interval: 10           # Intervalo de limpeza em minutos
+session_timeout: 30            # Tempo de inatividade para sessão expirar em minutos
+log_level: "debug"             # Nível de log: "debug", "info", "warn", "error"
+log_format: "json"             # Formato do log: "text" ou "json"
