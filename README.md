@@ -26,7 +26,7 @@ A configuração do servidor é feita através de um arquivo `config.yaml`. Abai
 ```yaml
 address: "0.0.0.0:1087"        # Endereço para escutar conexões
 username: "root"               # Nome de usuário para autenticação
-password: "j96637116"          # Senha para autenticação
+password: "102030"          # Senha para autenticação
 blocked_ips:
   - "192.168.1.100"
   - "10.0.0.200"               # Lista de IPs bloqueados
